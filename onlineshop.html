@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish E-commerce Website</title>
+    <link rel="stylesheet" href="onlineshop.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Cart</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Our Store!</h1>
+            <p>Exclusive Deals Just for You!</p>
+            <a href="#shop" class="cta-button">Start Shopping</a>
+        </div>
+    </section>
+
+    <section id="shop" class="product-list">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Stylish Watch</h3>
+            <p>$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Modern Shoes</h3>
+            <p>$79.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="Product 3">
+            <h3>Leather Jacket</h3>
+            <p>$149.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+    <section class="filter-sort">
+    <div class="filter">
+        <h3>Filter by Category</h3>
+        <ul>
+            <li><input type="checkbox" id="category1"> <label for="category1">Category 1</label></li>
+            <li><input type="checkbox" id="category2"> <label for="category2">Category 2</label></li>
+            <li><input type="checkbox" id="category3"> <label for="category3">Category 3</label></li>
+        </ul>
+    </div>
+
+    <div class="sort">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+            <option value="popularity">Popularity</option>
+        </select>
+    </div>
+</section>
+<section class="filter-sort">
+    <div class="filter">
+        <h3>Filter by Category</h3>
+        <ul>
+            <li><input type="checkbox" id="category1"> <label for="category1">Category 1</label></li>
+            <li><input type="checkbox" id="category2"> <label for="category2">Category 2</label></li>
+            <li><input type="checkbox" id="category3"> <label for="category3">Category 3</label></li>
+        </ul>
+    </div>
+
+    <div class="sort">
+        <label for="sort">Sort by:</label>
+        <select id="sort">
+            <option value="price-low-high">Price: Low to High</option>
+            <option value="price-high-low">Price: High to Low</option>
+            <option value="popularity">Popularity</option>
+        </select>
+    </div>
+</section>
+
+<div id="product-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <img src="product1.jpg" alt="Product 1" id="modal-img">
+        <h3>Stylish Watch</h3>
+        <p>Details about the product...</p>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+</div>
+<div class="jat">
+    <h1> this is river</h1>
+</div>
+<div class="fat">
+    <h1> this is river</h1>
+</div>
+    <footer>
+        <p>&copy; 2025 Stylish E-Commerce Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
